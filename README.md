@@ -20,7 +20,10 @@ by aws.amazon.com
 
       [2) Basic Terms](https://github.com/DeepLearnerSC/aws-sap-certification/tree/master/docker&k8s/k8s/002_basic_terminology)
 
-      [3) Installation](https://github.com/DeepLearnerSC/aws-sap-certification/tree/master/docker&k8s/k8s/003_installation)
+      [3) Installation](https://github.com/DeepLearnerSC/aws-sap-certification/tree/master/docker&k8s/k8s/
+      003_installation)
+
+      [4) Kubectl](https://github.com/DeepLearnerSC/aws-sap-certification/tree/master/docker&k8s/k8s/004_kubectl)
 
 2. AWS-SAP-Certification
 
