@@ -18,11 +18,11 @@ by aws.amazon.com
 
       [1) What is kubernetes](https://github.com/DeepLearnerSC/aws-sap-certification/blob/master/docker%26k8s/k8s/001_what_is_kubernetes.md)
 
-      [2) Basic Terms](https://github.com/DeepLearnerSC/aws-sap-certification/blob/master/docker%26k8s/k8s/002_basic_terminology)
+      [2) Basic Terms](https://github.com/DeepLearnerSC/aws-sap-certification/blob/master/docker%26k8s/k8s/002_basic_terminology.md)
 
-      [3) Installation](https://github.com/DeepLearnerSC/aws-sap-certification/blob/master/docker%26k8s/k8s/003_installation)
+      [3) Installation](https://github.com/DeepLearnerSC/aws-sap-certification/blob/master/docker%26k8s/k8s/003_installation.md)
 
-      [4) Kubectl](https://github.com/DeepLearnerSC/aws-sap-certification/blob/master/docker%26k8s/k8s/004_kubectl)
+      [4) Kubectl](https://github.com/DeepLearnerSC/aws-sap-certification/blob/master/docker%26k8s/k8s/004_kubectl.md)
 
 2. AWS-SAP-Certification
 
