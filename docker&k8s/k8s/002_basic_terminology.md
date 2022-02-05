@@ -8,8 +8,7 @@
     • Kubelet: Kubernetes agent running on nodes
     • Control Plane: Set of containers that manage the
     cluster
-        - Includes API server, scheduler, controller manager,
-        etcd, and more
+        - Includes API server, scheduler, controller manager,etcd, and more
         - Sometimes called the "master"
 
 **kubectl** is the command line tool that you will use to talk to the Kubernetes API. The main way we talk to Kubernetes is through its API. There's multiple tools out there that can do it. We'll be using most of the time is kubectl.
