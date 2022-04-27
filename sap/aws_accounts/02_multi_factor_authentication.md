@@ -9,3 +9,15 @@ AWS Multi-Factor Authentication (MFA) is a simple best practice that adds an ext
 <br/>
 
 <img src="./asset/mfa.png" width="60%">
+
+<br /> 
+
+Without MFA, a static user name and an infrequently changing password are needed to login. This is known as one factor.
+
+Adding a second factor, something only user has, makes it more secure. The MFA device/app generates a code which changes every 30s.  This code is needed together with user's username and password.
+
+## Resouce Link (Google it!)
+- iOS Google Authenticator
+- Android Google Authenticator
+- 1Password: https://1password.com
+- Authy : https://authy.com/
