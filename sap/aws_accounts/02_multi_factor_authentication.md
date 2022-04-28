@@ -16,7 +16,7 @@ Without MFA, a static user name and an infrequently changing password are needed
 
 Adding a second factor, something only user has, makes it more secure. The MFA device/app generates a code which changes every 30s.  This code is needed together with user's username and password.
 
-## Resouce Link (Google it!)
+## MFA/OTP Applications (Google it!)
 - iOS Google Authenticator
 - Android Google Authenticator
 - 1Password: https://1password.com

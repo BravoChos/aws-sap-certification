@@ -12,3 +12,8 @@ Follow the same steps to create a PRODUCTION AWS account as following.
 `Useful Notes!`
 
 Remember the `gmail '+'` thick!! (very useful)! This will allow you to use the '+' sign in an email address. And this will mean that you can generate an infinite number of unique email addresses which all go back to the same Gmail account.
+
+*Tip
+Create as alias for your account!! (feat. IAM Dashboard)
+## Adding an IAM Admin
+
