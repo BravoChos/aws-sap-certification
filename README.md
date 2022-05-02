@@ -26,6 +26,7 @@ by aws.amazon.com
 
 2. AWS-SAP-Certification
    1. Introduction
+   2. AWS account
 3. Machine Learning
 
 4. Security

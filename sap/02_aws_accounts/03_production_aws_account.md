@@ -35,3 +35,5 @@ Access keys are how the AWS Command Line Tools (CLI Tools) interact with AWS acc
 - AWS provides both Access keys ID and Secret Access keys whe you create Access key credentials.
 
 - Once provided, there's no ablility to get access again (no future download)
+
+- Make sure you keep the secrets access key safe and secure
