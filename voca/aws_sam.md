@@ -2,7 +2,7 @@
 
 The AWS Serverless Application Model (AWS SAM) is an open-source framework that you can use to build serverless applications on AWS. It consists of the AWS SAM template specification that you use to define your serverless applications, and the AWS SAM command line interface (AWS SAM CLI) that you use to build, test, and deploy your serverless applications.
 
-<img src="./assets/sap_sam.jpg" idth="60%">
+<img src="./assets/sap_sam.jpg" width="60%">
 <br/>
 
 Because AWS SAM is an extension of AWS CloudFormation, you get the reliable deployment capabilities of AWS CloudFormation. You can define resources by using AWS CloudFormation in your AWS SAM template. Also, you can use the full suite of resources, intrinsic functions, and other template features that are available in AWS CloudFormation.
@@ -19,7 +19,7 @@ You can use AWS SAM with a suite of AWS tools for building serverless applicatio
 
 Use AWS Serverless Application Model (AWS SAM) and set up AWS CodeBuild, AWS CodeDeploy, and AWS CodePipeline to build a CI/CD pipeline.
 
-### Odap-Note
+### Odap Note
 
 `OpsWorks` lets you use Chef and Puppet to automate how servers are configured, deployed, and managed across your Amazon EC2 instances or on-premises compute environments. It can't deploy AWS Lambda applications.
 

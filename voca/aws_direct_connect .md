@@ -18,8 +18,11 @@ With Direct Connect Gateway, you no longer need to establish multiple BGP sessio
 - The central office requires inter-region VPC access over a private network that is dedicated to each region for enhanced security and more predictable data transfer performance.
 - build this network mesh and to minimize the management overhead to maintain these connections.
 
-###Solution
+### Solution
+
 Utilize AWS Direct Connect Gateway for inter-region VPC access. Create a virtual private gateway in each VPC, then create a private virtual interface for each AWS Direct Connect connection to the Direct Connect gateway.
+
+### Odap Note
 
 `Link aggregation group (LAG)` is irrelevant in this scenario because it is just a logical interface that uses the Link Aggregation Control Protocol (LACP) to aggregate multiple connections at a single AWS Direct Connect endpoint, allowing you to treat them as a single, managed connection.
 
