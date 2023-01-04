@@ -1,4 +1,5 @@
 # Public vs Private Services
+
 3 network zones relating to AWS Services
 
 - Public Internet
@@ -39,7 +40,7 @@ This is the zone where internet based service operates from. Things like online 
 
 Then we have private networks. so if you're watching this video from home then your home network is an example of the private network. Only things which are directly connected to a network port within your house or people who have your WI_FI password can operate in yout personal private zone network.
 
-Now AWS also have private zones. and these are called Virtual Private Clouds or VPCs. These are isolated so VPCS can't communicate with each other unless you allow it. And nothing from the internet can reach these private networks unless you configure it. 
+Now AWS also have private zones. and these are called Virtual Private Clouds or VPCs. These are isolated so VPCS can't communicate with each other unless you allow it. And nothing from the internet can reach these private networks unless you configure it.
 
 Services can be placed into these private zones such as EC2 instances. and just like with your home network. it can only access the internet and the internet can only access it if you allow it and you configure it. Many people think this is how AWS is architected that there are two network zones, the internet and private zones, but there's actually a third zone on the AWS public zone.
 
@@ -54,14 +55,13 @@ And this runs between the public internet and the AWS private zone networks. So 
 
 So just to sumarize, try and really understand this fundamental concept. We've got three different networks zones, the public internet, the AWS private zone, which is where VPCs run from and the AWS public zone, which sits in the middle and this is where AWS public service oprate from.
 
-Now, if you access AWS public services from anywhere with a public internet connection, your communication uses the public internet for transit to and from this AWS public zone. This is why you can access AWS public services from anywhere with an internet connection because the internet is used to carry package from user to the AWS public zone and back again for the return journey. 
-
+Now, if you access AWS public services from anywhere with a public internet connection, your communication uses the public internet for transit to and from this AWS public zone. This is why you can access AWS public services from anywhere with an internet connection because the internet is used to carry package from user to the AWS public zone and back again for the return journey.
 
 ### Other ways of connections in private zone
 
 1. VPN or Direct Connect
 
-You can also configure virtaul or physical connections between on premises networks and AWS VPCs. So private network can be connected together, but agian only if you decide to allow it. 
+You can also configure virtaul or physical connections between on premises networks and AWS VPCs. So private network can be connected together, but agian only if you decide to allow it.
 
 <br/>
 
@@ -75,14 +75,14 @@ You can also create and attach internet gateway to a VPC. This provides a few ad
 
 First, it allows private zone resources to access the public internet as long as EC2 in this example has an allocated public IP address.
 
-It also allows access to public AWS services such as S3 but crucially, this data doesn't touch the public internet at any point. It communicates with the public service using the aws public zone. 
+It also allows access to public AWS services such as S3 but crucially, this data doesn't touch the public internet at any point. It communicates with the public service using the aws public zone.
 
 3. etc..
 
-It's possible to give private resources such as EC2 instances of public IP address. And this allows the resource to be accessed from the public internet. 
+It's possible to give private resources such as EC2 instances of public IP address. And this allows the resource to be accessed from the public internet.
 
-Architecturally, it is projecting the EC2 instance into the public zone so that all of that instance, or part of it can be communicated with from the public internet. 
+Architecturally, it is projecting the EC2 instance into the public zone so that all of that instance, or part of it can be communicated with from the public internet.
 
 ## Summary
 
-So this is the architecture, the three different networks zonez: public internet, the AWS public zone and the AWS private zone. 
+So this is the architecture, the three different networks zonez: public internet, the AWS public zone and the AWS private zone.
